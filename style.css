@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("./pic/pic.jpg");
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+
+nav {
+    color: white;
+    font-size: 0.6rem;
+    text-align: end;
+    margin-right: 100px;
+    margin-top: 15px;
+}
+
+.name h1 {
+    color: white;
+    font-size: 3rem;
+    letter-spacing: 4px;
+}
+
+.name p {
+    color: white;
+    font-size: 0.6rem;
+    padding-top: 40px;
+    padding-bottom: 5px;
+    letter-spacing: 4px;
+}
+
+.load {
+    width: 350px;
+    height: 5px;
+    background: white;
+    margin: auto;
+    box-shadow: 4px 4px 8px rgb(70, 69, 69);
+}
+
+.loading {
+    width: 270px;
+    height: 5px;
+    background: rgb(119, 199, 202);
+    position: absolute;
+}
+
+.percent {
+    color: white;
+    font-size: 0.7rem;
+    width: 350px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+
+.notify {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.notify > a {
+    text-decoration: none;
+    border: 1px solid rgb(119, 199, 202);
+    background: rgb(119, 199, 202);
+    padding-inline: 16px;
+    padding-block: 4px;
+}
+
+.name {
+    margin-top: 100px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.contact {
+    text-align: center;
+    vertical-align: center;
+}
+
+.contact i {
+    margin-top: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    width: 38px;
+    height: 38px;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    vertical-align: bottom;
+    padding-top: 2px;
+}
+
+i {
+    margin-inline: 10px ;
+}
+
+footer {
+    width: 80%;
+    margin-inline: auto;
+    text-align: center;
+    border-top: 1px solid rgb(182, 182, 182);
+    color: rgb(182, 182, 182);
+    position: relative;
+    bottom: -230px;
+}
